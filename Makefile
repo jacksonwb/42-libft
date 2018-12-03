@@ -6,7 +6,7 @@
 #    By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/22 16:25:23 by jbeall            #+#    #+#              #
-#    Updated: 2018/12/03 13:21:57 by jbeall           ###   ########.fr        #
+#    Updated: 2018/12/03 14:52:43 by jbeall           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,13 +39,17 @@ SRC += ./src/char/ft_isspace.c ./src/char/ft_isdigit.c ./src/char/ft_isalnum.c \
 ./src/char/ft_tolower.c ./src/char/ft_isprint.c
 SRC += ./src/math/pow_of_2.c ./src/math/pow_int.c
 SRC += ./src/sys/ft_die.c
+SRC_FT_PRINTF := ft_printf.c parse.c utils_handlef_2.c handlef.c utils.c \
+utils_handlef_3.c handler.c utils_handle.c utils_parse.c handler2.c \
+utils_handlef.c
+SRC_FT_PRINTF := $(addprefix ./src/ft_printf/, $(SRC_FT_PRINTF))
 FLAGS = -Wall -Werror -Wextra -O3
 OBJ = $(addprefix $(OBDIR), $(notdir $(SRC:.c=.o)))
 INC = ./includes
 
 $(NAME): $(SRC)
 	@echo "Building libft.a library..."
-	@gcc $(FLAGS) -c $(SRC) -I $(INC)
+	@gcc $(FLAGS) -c $(SRC) $(SRC_FT_PRINTF) -I $(INC)
 	@ar -rc $(NAME) $(OBJ)
 	@echo "\033[92mdone!\033[0m"
 all: $(NAME)
