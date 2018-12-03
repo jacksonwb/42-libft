@@ -10,7 +10,7 @@ Include this library in your project using:
 #include "libft.h"
 ```
 
-Optionally include the get_next_line function:
+Optionally include the following headers for additional functionality:
 ```c
 #include "get_next_line.c"
 ```
