@@ -6,7 +6,7 @@
 #    By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/22 16:25:23 by jbeall            #+#    #+#              #
-#    Updated: 2018/12/03 12:10:27 by jbeall           ###   ########.fr        #
+#    Updated: 2018/12/03 13:21:57 by jbeall           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,7 @@ SRC += ./src/char/ft_isspace.c ./src/char/ft_isdigit.c ./src/char/ft_isalnum.c \
 ./src/char/ft_toupper.c ./src/char/ft_isascii.c ./src/char/ft_isalpha.c \
 ./src/char/ft_tolower.c ./src/char/ft_isprint.c
 SRC += ./src/math/pow_of_2.c ./src/math/pow_int.c
+SRC += ./src/sys/ft_die.c
 FLAGS = -Wall -Werror -Wextra -O3
 OBJ = $(addprefix $(OBDIR), $(notdir $(SRC:.c=.o)))
 INC = ./includes

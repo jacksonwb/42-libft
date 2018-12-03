@@ -6,7 +6,7 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/22 17:40:25 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/03 12:10:04 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/03 13:21:30 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,9 +96,12 @@ void				ft_lstrev(t_list **alst);
 size_t				ft_lstcount(t_list *lst);
 char				*ft_ptoa(void *p, char c);
 /*
-**---Math---
+**---math---
 */
-unsigned int pow_of_2(int n);
-int pow_int (int n, unsigned int pow);
-
+unsigned int		pow_of_2(int n);
+int					pow_int(int n, unsigned int pow);
+/*
+**---sys---
+*/
+void				die(char *str);
 #endif
