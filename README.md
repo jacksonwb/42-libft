@@ -13,4 +13,5 @@ Include this library in your project using:
 Optionally include the following headers for additional functionality:
 ```c
 #include "get_next_line.c"
+#include "ft_printf.c"
 ```
