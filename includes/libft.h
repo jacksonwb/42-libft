@@ -6,7 +6,7 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/22 17:40:25 by jbeall            #+#    #+#             */
-/*   Updated: 2018/11/15 19:12:18 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/03 12:10:04 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 # include <unistd.h>
 # include <string.h>
 # include <stdlib.h>
-# include "get_next_line.h"
 
 typedef struct		s_list
 {
@@ -96,4 +95,10 @@ t_list				*ft_strsplit_lst(char const *s, char c);
 void				ft_lstrev(t_list **alst);
 size_t				ft_lstcount(t_list *lst);
 char				*ft_ptoa(void *p, char c);
+/*
+**---Math---
+*/
+unsigned int pow_of_2(int n);
+int pow_int (int n, unsigned int pow);
+
 #endif

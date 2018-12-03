@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jbeall <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/31 15:35:05 by jbeall            #+#    #+#             */
-/*   Updated: 2018/11/05 17:27:36 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/02 17:41:15 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include <get_next_line.h>
 
 static int	cache_filler(const int fd, char **cache, int *eof)
 {
