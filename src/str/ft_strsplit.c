@@ -6,11 +6,11 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/26 13:14:44 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/01 15:59:03 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/03 14:56:20 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 static size_t	count_seg(char const *s, char c)
 {

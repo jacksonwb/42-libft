@@ -6,11 +6,11 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/03 13:19:26 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/03 13:22:04 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/03 14:56:20 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	die(char *str)
 {

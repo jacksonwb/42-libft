@@ -6,11 +6,11 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/30 17:43:38 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/01 15:59:02 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/03 14:56:20 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	ft_lstrev(t_list **alst)
 {
