@@ -9,3 +9,8 @@ Include this library in your project using:
 ```c
 #include "libft.h"
 ```
+
+Optionally include the get_next_line function:
+```c
+#include "get_next_line.c"
+```
