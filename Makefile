@@ -6,7 +6,7 @@
 #    By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/22 16:25:23 by jbeall            #+#    #+#              #
-#    Updated: 2018/12/03 14:52:43 by jbeall           ###   ########.fr        #
+#    Updated: 2018/12/03 22:21:19 by jbeall           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,12 +44,13 @@ utils_handlef_3.c handler.c utils_handle.c utils_parse.c handler2.c \
 utils_handlef.c
 SRC_FT_PRINTF := $(addprefix ./src/ft_printf/, $(SRC_FT_PRINTF))
 FLAGS = -Wall -Werror -Wextra -O3
-OBJ = $(addprefix $(OBDIR), $(notdir $(SRC:.c=.o)))
+OBJ = $(notdir $(SRC:.c=.o))
+OBJ += $(notdir $(SRC_FT_PRINTF:.c=.o))
 INC = ./includes
 
 $(NAME): $(SRC)
 	@echo "Building libft.a library..."
-	@gcc $(FLAGS) -c $(SRC) $(SRC_FT_PRINTF) -I $(INC)
+	@gcc $(FLAGS) -c $(SRC) $(SRC_FT_PRINTF) -I$(INC)
 	@ar -rc $(NAME) $(OBJ)
 	@echo "\033[92mdone!\033[0m"
 all: $(NAME)
