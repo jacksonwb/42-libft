@@ -15,3 +15,4 @@ Optionally include the following headers for additional functionality:
 #include "get_next_line.c"
 #include "ft_printf.c"
 ```
+Click here for more information on [ft_printf](https://github.com/jacksonwb/ft_printf)
