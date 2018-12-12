@@ -6,7 +6,7 @@
 #    By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/22 16:25:23 by jbeall            #+#    #+#              #
-#    Updated: 2018/12/03 14:52:43 by jbeall           ###   ########.fr        #
+#    Updated: 2018/12/12 10:58:03 by jbeall           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,7 +37,7 @@ SRC += ./src/str/ft_strrchr.c ./src/str/ft_strcmp.c ./src/str/ft_strlcat.c \
 SRC += ./src/char/ft_isspace.c ./src/char/ft_isdigit.c ./src/char/ft_isalnum.c \
 ./src/char/ft_toupper.c ./src/char/ft_isascii.c ./src/char/ft_isalpha.c \
 ./src/char/ft_tolower.c ./src/char/ft_isprint.c
-SRC += ./src/math/pow_of_2.c ./src/math/pow_int.c
+SRC += ./src/math/pow_of_2.c ./src/math/pow_int.c ./src/math/ft_abs.c
 SRC += ./src/sys/ft_die.c
 SRC_FT_PRINTF := ft_printf.c parse.c utils_handlef_2.c handlef.c utils.c \
 utils_handlef_3.c handler.c utils_handle.c utils_parse.c handler2.c \
