@@ -6,11 +6,11 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/03 11:58:15 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/03 12:02:47 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/12 19:27:12 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned int pow_of_2(int n)
+unsigned int	pow_of_2(int n)
 {
 	unsigned int pow;
 

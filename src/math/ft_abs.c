@@ -6,11 +6,11 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/12 10:55:39 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/12 10:58:23 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/12 19:27:28 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned int ft_abs(int x)
+unsigned int	ft_abs(int x)
 {
 	if (x < 0)
 		return (-x);

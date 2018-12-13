@@ -6,7 +6,7 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/22 17:40:25 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/12 14:30:51 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/12 19:26:21 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,7 @@ char				*ft_ptoa(void *p, char c);
 unsigned int		pow_of_2(int n);
 int					pow_int(int n, unsigned int pow);
 unsigned int		ft_abs(int x);
-unsigned int 		itoa_len(int n);
+unsigned int		itoa_len(int n);
 /*
 **---sys---
 */
