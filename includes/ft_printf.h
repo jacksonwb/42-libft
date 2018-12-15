@@ -6,7 +6,7 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 10:08:21 by jbeall            #+#    #+#             */
-/*   Updated: 2018/12/03 14:39:03 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/14 17:25:15 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ typedef struct			s_block
 }						t_block;
 
 int						ft_printf(const char *format, ...);
-int						call_handler(t_block *block, va_list ap);
+static int				call_handler(t_block *block, va_list ap);
 
 /*
 ** Parse Handlers
