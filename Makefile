@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+         #
+#    By: jackson <jbeall@student.42.us.org>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/22 16:25:23 by jbeall            #+#    #+#              #
-#    Updated: 2018/12/12 14:31:17 by jbeall           ###   ########.fr        #
+#    Updated: 2018/12/14 21:46:20 by jackson          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,7 @@ INC = ./includes
 
 $(NAME): $(SRC)
 	@echo "Building libft.a library..."
-	@gcc $(FLAGS) -c $(SRC) $(SRC_FT_PRINTF) -I$(INC)
+	@clang $(FLAGS) -c $(SRC) $(SRC_FT_PRINTF) -I$(INC)
 	@ar -rc $(NAME) $(OBJ)
 	@echo "\033[92mdone!\033[0m"
 all: $(NAME)
