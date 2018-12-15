@@ -6,7 +6,7 @@
 /*   By: jbeall <jbeall@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 10:08:05 by jbeall            #+#    #+#             */
-/*   Updated: 2018/11/28 15:22:16 by jbeall           ###   ########.fr       */
+/*   Updated: 2018/12/14 17:24:00 by jbeall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int			block_parser(const char *s, t_block *block, va_list ap)
 	return (s - start);
 }
 
-int			call_handler(t_block *block, va_list ap)
+static int	call_handler(t_block *block, va_list ap)
 {
 	static int	(*handlers[11])(t_block *block, va_list ap) = {
 		&handle_c,
